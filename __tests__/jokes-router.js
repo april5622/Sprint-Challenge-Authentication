@@ -12,7 +12,7 @@ describe("jokes integration test", () => {
     it("GET /api/jokes should FAIL", async () => {
         const res = await supertest(server).get("/")
             expect(res.statusCode).toBe(404)
-           // expect(res.type).toBe("application/json")
+            //expect(res.type).toBe("application/json")
     
     })
 })
